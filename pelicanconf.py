@@ -1,35 +1,43 @@
 AUTHOR = 'Juan Luis Medrano Miguel'
-SITENAME = 'Mi Blog de Pruebas'
-SITEURL = ""
+SITENAME = 'Juan Luis Medrano - Web Personal de Taller Transversal 1'
+SITEURL = ""  # Se deja vacío para que funcione en local (localhost:8000)
 
 PATH = "content"
 
-TIMEZONE = 'Europe/Rome'
-
+# Configuración regional
+TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = 'es'
 
-# Feed generation is usually not desired when developing
+# --- Configuración de la Interfaz ---
+DEFAULT_PAGINATION = 5
+SUMMARY_MAX_LENGTH = 50
+
+# --- Blogroll (Enlaces de interés y tecnologías de la práctica) ---
+LINKS = (
+    ('Pelican (Python)', 'https://getpelican.com/'),
+    ('Hugo (Go)', 'https://gohugo.io/'),
+    ('Jekyll (Ruby)', 'https://jekyllrb.com/'),
+    ('Python.org', 'https://www.python.org/'),
+)
+
+# --- Redes Sociales ---
+SOCIAL = (
+    ('GitHub', 'https://github.com/jumedrm'),
+    ('LinkedIn', 'https://www.linkedin.com/in/juan-luis-medrano-miguel/'),
+    ('Email', 'mailto:medranojuanlu@gmail.com'),
+)
+
+# --- Configuración de Feeds (Desactivados para desarrollo) ---
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+# --- Ajustes de Generación ---
+# Esto limpia la carpeta 'output' antes de generar la nueva versión,
+# evitando que se queden archivos viejos o borrados.
+DELETE_OUTPUT_DIRECTORY = True
 
-# Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
-
-DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+# --- Rutas de temas y estáticos (Opcional para futuro) ---
+# THEME = 'notmyidea' # Este es el tema por defecto
