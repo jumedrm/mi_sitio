@@ -1,6 +1,6 @@
 AUTHOR = 'Juan Luis Medrano Miguel'
 SITENAME = 'Juan Luis Medrano - Web Personal de Taller Transversal 1'
-SITEURL = ""  # Se deja vacío para que funcione en local (localhost:8000)
+SITEURL = 'https://jumedrm.github.io/mi_sitio'  # Se deja vacío para que funcione en local (localhost:8000)
 
 PATH = "content"
 
