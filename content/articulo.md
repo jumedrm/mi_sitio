@@ -1,6 +1,6 @@
 Title: Implementación de Sitios Estáticos con Pelican
 Date: 2026-02-09
-Category: Práctica 1 de TT1
+Category: Práctica_1
 Author: Juan Luis Medrano Miguel
 
 # Mi primera web estática con Pelican
