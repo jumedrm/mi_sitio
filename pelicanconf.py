@@ -41,3 +41,10 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # --- Rutas de temas y estáticos (Opcional para futuro) ---
 # THEME = 'notmyidea' # Este es el tema por defecto
+
+#Para cambiar el color de fondo
+STATIC_PATHS = ['extras']
+EXTRA_PATH_METADATA = {
+    'extras/custom.css': {'path': 'static/custom.css'}
+}
+CUSTOM_CSS = 'static/custom.css'

@@ -1,0 +1,11 @@
+body {
+    background-color: #f0f4f8; /* Un gris azulado claro muy profesional */
+}
+h1, h2, h3 {
+    color: #2c3e50; /* Un tono oscuro elegante */
+}
+/* Quitar subrayado de los títulos si son links */
+h2 a, h1 a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
